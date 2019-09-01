@@ -34,6 +34,12 @@ img {
     margin-right: auto;
     width: 50%
   }
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+    color: white;
+  }
 .navbar{
     overflow: hidden;
     background-color: #333;
