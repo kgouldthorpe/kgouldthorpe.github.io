@@ -8,29 +8,24 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="http://kgouldthorpe.github.io">Equator Weather <span class="sr-only"></span></a>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://kgouldthorpe.github.io">Equator Weather</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Plots
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://kgouldthorpe.github.io/lvt">Temperature</a></li>
+                        <li><a href="http://kgouldthorpe.github.io/lvc">Cloudiness</a></li>
+                        <li><a href="http://kgouldthorpe.github.io/lvh">Humidity</a></li>
+                        <li><a href="http://kgouldthorpe.github.io/lvws">Wind Speed</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://kgouldthorpe.github.io/comparisons">Comparisons</a>
-                </li>
-                <li class="nav-item"></li>
-                    <a class="nav-link" href="http://kgouldthorpe.github.io/data">Data</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://kgouldthorpe.github.io/lvt">Latitude vs Temperature</a>
-                        <a class="dropdown-item" href="http://kgouldthorpe.github.io/lvh">Latitude vs Humidity</a>
-                        <a class="dropdown-item" href="http://kgouldthorpe.github.io/lvc">Latitude vs Cloudiness</a>
-                        <a class="dropdown-item" href="http://kgouldthorpe.github.io/lvws">Latitude vs Wind Speed</a>
-                    </div>
-                </li>
+                <li><a href="http://kgouldthorpe.github.io/comparisons">Comparisons</a></li>
+                <li><a href="http://kgouldthorpe.github.io/data">Data</a></li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -38,13 +33,13 @@
             </form>
         </div>
     </nav>
-        <h1>Latitude vs Temperature</h1>
-        <h2>Comparing temperature across various latitudes.</h2>
-         <hr>
-        <img src="https://github.com/kgouldthorpe/kgouldthorpe.github.io/blob/master/latvtemp.png?raw=true" alt="Latitude vs Temperature" style="width:1000px;height:600px;" class="img-thumbnail">
-        <hr>
-        <section>
-            <p>From this graph we can see that as we get closer to the equator, the temperatures rise. </p>
-        </section>
-    </body>
+    <h1>Latitude vs Temperature</h1>
+    <h2>Comparing temperature across various latitudes.</h2>
+    <hr>
+    <img src="https://github.com/kgouldthorpe/kgouldthorpe.github.io/blob/master/latvtemp.png?raw=true" alt="Latitude vs Temperature" style="width:1000px;height:600px;" class="img-thumbnail">
+    <hr>
+    <section>
+        <p>From this graph we can see that as we get closer to the equator, the temperatures rise. </p>
+    </section>
+</body>
 </html>
